@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -34,7 +37,7 @@
       
       .Link a{
             
-           text-decoration-line: none;
+           text-decoration: none;
            font-size: 20px;
            margin-right: 20px;
            margin-left: 20px;
@@ -49,6 +52,7 @@
       .name{
         margin-right: 30px;
         margin-left: 20px;
+        font-family: 'Poppins', sans-serif;
        }
        .mob{
         margin-right: 30px;
@@ -56,11 +60,14 @@
       .gmail{
         margin-right: 30px;
       }
+      .linkNone li{
+        display: inline;
+      }
       
     </style>
   </head>
   <body>
-    <h3 style="font-size:25px;color:rgb(223, 32, 134);" >Add Profiles Details</h3>
+    <h3 style="font-size:25px;color:rgb(223, 32, 134); font-family: 'Poppins', sans-serif;" >Add Profiles Details</h3>
     <div >
       <span class="name"
         ><i class="fa fa-user" aria-hidden="true" style="font-size:25px;color:rgb(91, 200, 236); margin-right: 10px; " ></i> Satyajit Panaskar</span
@@ -80,41 +87,43 @@
 
     <br /><br/>
    
-    <span class="Link">
-     <span><a href="home.html" target="myFrame">HOME</a></span
-    >
-    <span><a href="techStack.html" target="myFrame">TECHSTACK</a></span
-    >
-    <span><a href="project.html" target="myFrame">PROJECT</a></span
-    >
-    <span><a href="education.html" target="myFrame">EDUCATION</a></span
-    >
-        <span><a href="aboutMe.html" target="myFrame">ABOUT ME</a></span>
-  </span>
+    <ui class="linkNone">
+      <span class="Link">
+        <li><span><a href="home.html" target="myFrame">HOME</a></span></li>
+       
+       <li><span><a href="techStack.html" target="myFrame">TECHSTACK</a></span></li>
+       
+       <li><span><a href="project.html" target="myFrame">PROJECT</a></span></li>
+       
+       <li><span><a href="education.html" target="myFrame">EDUCATION</a></span
+       ></li>
+          <li><span><a href="aboutMe.html" target="myFrame">ABOUT ME</a></span></li> 
+     </span>
+    </ui>
     <br /><br />
-    <iframe src="home.html" width="950" height=900" name="myFrame"> </iframe>
+    <iframe src="home.html" width="950" height="900" name="myFrame"> </iframe>
 
    
-    <span class="follow"> <h2>
+    <ui class="linkNone"><span class="follow"> <h2>
          Follow me 
-        <a href="https://www.linkedin.com/login" target="_blank">
+       <li><a href="https://www.linkedin.com/login" target="_blank">
           <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:50px;color:rgb(91, 200, 236);"></i></a
-        >
-        <a href="https://github.com" target="_blank">
+        ></li>
+       <li> <a href="https://github.com" target="_blank">
           <i class="fa fa-github" aria-hidden="true" style="font-size:50px;color:rgb(91, 200, 236);"></i></a
-        >
-        <a href="https://www.instagram.com" target="_blank">
+        ></li>
+       <li> <a href="https://www.instagram.com" target="_blank">
           <i class="fa fa-instagram" aria-hidden="true" style="font-size:50px;color:rgb(91, 200, 236);"></i
-        ></a>
-        
+        ></a></li>
+         
 
-        <a href="https://www.facebook.com" target="_blank">
+        <li><a href="https://www.facebook.com" target="_blank">
           <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:50px;color:rgb(91, 200, 236);"></i></a
-        >
-            </h2></span>
+        ></li>
+            </h2></span></ui>
     
     <footer>
-      <p style="color: red;">Copyright &copy; 6July2023</p>
+      <p style="color: red;">Copyright &copy; 10July2023</p>
     </footer>
   </body>
 </html>

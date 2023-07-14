@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Inconsolata&display=swap" rel="stylesheet">
+<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+    
+    h1{
+        font-family: 'Rampart One', cursive;
+        color: darkmagenta;
+        
+    }
+    .photoSection{
+        display: inline-block;
+        
+    }
+    .textSection {
+        display: inline-block;
+        
+    
+    }
+    img{
+        margin-top: 50px;
+    }
+    .sp1{
+        display:inline-block;
+         margin-top: 20px;
+         margin-left: 50px;
+         font-size: 30px;   
+         color:rgb(208, 21, 168);
+    }
+    .sp2{
+        display: inline-block;
+        margin-left: 20px;
+    }
+    .sp3 li{
+        font-family: 'Inconsolata', monospace;
+     padding: 5px;
+     margin-bottom: 17px;
+      font-size: larger;
+      margin-left: 20px;
+      color:rgb(241, 0, 0);
+     }
+    
+    .linkNone li{
+        display: inline; 
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      .sp3 ul li:hover {
+         color: blue;
+         background-color: cadetblue;
+      }
+      .sp3 li{
+       
+        list-style-type: none;
+    }
+    .sp3 li::before{
+        padding: 10px;
+        content: "✍️";
+    }
+    fieldset{
+        border-width: 5px; 
+        color: black;
+         width: 1000px;
+    }
+    </style>
+</head>
+<body>
+    <fieldset >
+        <div class="container">
+            <div class="photoSection">
+              <img src="Document/istockphoto-1212223269-1024x1024.jpg" alt="SimpleImg" width="300px">
+              <div>
+                <div class="sp1"><i class="fa fa-empire" aria-hidden="true"></i></div>
+                <div class="sp2"><p>Powered by<br><strong style="color:rgb(241, 0, 0);">JSoftwareLabs</strong></p></div>
+                </div>
+                <div>
+                    <ul class="linkNone"><span class="follow"> <h3>
+                     Follow me
+                      <li><a href="https://www.linkedin.com/login" target="_blank">
+                         <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:30px;color:rgb(91, 200, 236);"></i></a
+                       ></li>
+                      <li> <a href="https://github.com" target="_blank">
+                         <i class="fa fa-github" aria-hidden="true" style="font-size:30px;color:rgb(91, 200, 236);"></i></a
+                       ></li>
+                      <li> <a href="https://www.instagram.com" target="_blank">
+                         <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;color:rgb(91, 200, 236);"></i
+                       ></a></li>
+                       
+               
+                       <li><a href="https://www.facebook.com" target="_blank">
+                         <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px;color:rgb(91, 200, 236);"></i></a
+                       ></li>
+                           </h3></span></ul>
+                </div>
+               
+            </div>
+            <div class="textSection">
+                  <h1>Compare Text Online</h1>
+              <div class="sp3">
+                    <ul>
+                        <li>Compare Text online free</li>
+                        <li>Support large file comparison</li>
+                        <li>Ingore order and namespaces</li>
+                        <li>Side by side diff view</li>
+                        <li>Get results in tabular format for quick refrence</li>
+                        <li>TEXT diff tool</li>
+                        <li>REST API</li>
+                     </ul>
+                 </div>
+                
+            </div>
+        </div>
+    </fieldset>
+</body>
+</html>

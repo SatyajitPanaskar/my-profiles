@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Discount Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Signika Negative', sans-serif;
+              
+            background-color:white;
+            font-size: large;
+        margin-top: 50px;
+        margin-left: 50px;            
+
+        }
+          h2{
+            text-transform: uppercase;
+            text-align: center;
+            color: forestgreen;
+          }
+       h2:hover{
+        color: red;
+        background-color: coral;
+       }          button{
+            
+           color:rgb(255, 255, 251);
+            font-size: 30px; 
+             background-color: rgba(44, 228, 44, 0.932);
+            
+            border-style: solid;
+            border-width: medium;
+            border-color:rgb(0, 0, 0) ;
+            border-radius: 20px;
+            width: 400px;
+            margin-top: 15px;
+          }
+          input[type="number"]
+          {
+            width: 400px;
+            height: 30px;
+            border-style: solid;
+            
+           
+           
+            }
+          .form{
+            width: 500px;
+            border-color: black;
+            border-style:solid;
+            border-radius: 15px;
+            border-width: 3px;
+          }
+         td{
+            color: forestgreen;
+         }
+         p{
+            color: forestgreen;
+         }
+         
+      
+         
+         
+    </style>
+</head>
+<body>
+    <fieldset class="form">
+        <h2>Discount Calculator</h2>
+        <p>Enter The Bill Amount And Discount In Percentage</p>
+       <table>
+        <tbody>
+            <tr><td> Bill Amount</td></tr>
+        <tr><th><input type="number"></th></tr>
+        <tr><td>Discount Percentage</td></tr>
+        <tr><th><input type="number"></th></tr>
+        <tr><td><button type="submit">Calculate</button></td></tr>
+        <tr><td><p>Total Discount Amount</p></td></tr>
+        </tbody>
+        </table>
+      </fieldset>
+       </body>
+</html>
+
