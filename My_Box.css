@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    height: 75rem;
+    border: 2px solid blue;
+    padding: 15px;
+}
+
+.sectHead {
+    position: relative;
+    display: flex;
+    width: 94rem;
+    height: 18%;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect2 {
+    position: relative;
+    display: flex; /* To align sectNav boxes in a row */
+    justify-content: space-between; /* To evenly space the boxes */
+    top: 20px;
+}
+
+.sectNav1,
+.sectNav2,
+.sectNav3,
+.sectNav4 {
+    height: 7rem;
+    width: 20%; /* Adjust as needed */
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.sect3 {
+    position: relative;
+    display: flex;
+    top: 40px;
+}
+
+
+
+.left-top-box,
+.left-bottom-box,
+.top-Mid-box,
+.Right-top-box,
+.Right-Mid-box,
+.Right-bottom-box {
+    border: 1px solid black; /* Adding border for visibility */
+    padding: 10px; /* Adding padding for spacing */
+    position: absolute;
+}
+
+.left-top-box{
+    position: relative;
+    padding: 0;
+    width: 23%; 
+}
+
+.pas1{
+    background-color: green;
+}
+
+.emt{
+
+    color: black;
+    background-color: rgb(255, 255, 165);
+}
+
+
+.left-bottom-box {
+    position: absolute;
+    top: 300px;
+    height: 15rem;
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-Mid-box{
+
+    margin: 0px 450px 0px 382px;
+    height: 34rem;
+    width: 48%;
+}
+
+.Right-top-box,
+.Right-Mid-box,
+.Right-bottom-box {
+    position: absolute;
+    width: 22%; /* Adjust as needed */
+    right: 0rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Right-top-box{
+    border-color: red;
+}
+
+.Right-Mid-box{
+    top: 12rem;
+    border-color: blue;
+}
+
+.Right-bottom-box{
+
+    top: 24rem;
+    border-color: green;
+}
+.sectFooter {
+    width: 93.5rem;
+    height: 10rem;
+    position: absolute;
+    text-align: center;
+    top: 65rem;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
